@@ -1,0 +1,14 @@
+{ "_aciklama": "Ürünün bütününü anlatan 2,5-3 dakikalık film: sorun, tek merkez, 6-8 yetenek (her biri soru-çözüm-kazanç), final. ~290 kelime. Yetenek bölümlerini çoğaltın.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "acilis", "style": "calm authority, inviting", "t": "[Ürünün adı ve tek cümlelik konumu.]" },
+  { "id": "c01", "beat": "sorun", "style": "intrigued, slightly concerned", "t": "[İş neden göründüğünden karmaşık: parçaları sayın.]" },
+  { "id": "c02", "beat": "sorun", "style": "knowing, a touch of frustration", "t": "[Parçalar ayrı durunca ne olur.]" },
+  { "id": "c03", "beat": "merkez", "style": "bright, relieved, emphasis on the key word", "t": "[Ürün hepsini nasıl bir araya getirir.]" },
+  { "id": "c04", "beat": "yetenek1", "style": "curious, a question to the viewer", "t": "[Yetenek 1: izleyiciye soru.]" },
+  { "id": "c05", "beat": "yetenek1", "style": "energetic, clear", "t": "[Yetenek 1: çözüm, iki cümle.]" },
+  { "id": "c06", "beat": "yetenek1", "style": "assured, satisfied", "t": "[Yetenek 1: işletmeye kazancı.]" },
+  { "id": "c07", "beat": "yetenek2", "style": "curious, a question to the viewer", "t": "[Yetenek 2: soru.]" },
+  { "id": "c08", "beat": "yetenek2", "style": "energetic, clear", "t": "[Yetenek 2: çözüm.]" },
+  { "id": "c09", "beat": "yetenek2", "style": "assured, satisfied", "t": "[Yetenek 2: kazanç.]" },
+  { "id": "c10", "beat": "final", "style": "proud, slower, building", "t": "[Bütün parçalar tek yerde: özet cümlesi.]" },
+  { "id": "c11", "beat": "final", "style": "warm, memorable, a pause before the brand", "t": "[Kapanış cümlesi. Marka adı.]" } ] }

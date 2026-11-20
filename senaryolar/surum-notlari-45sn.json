@@ -1,0 +1,7 @@
+{ "_aciklama": "Yeni sürümde gelenleri duyuran 45 saniyelik film: 'bu sürümde ne var', üç-dört yenilik, kapanış. ~70 kelime. Yenilikler git geçmişinden ve sürüm etiketlerinden doğrulanır.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "giris", "style": "upbeat, newsy, a smile", "t": "[Yeni sürüm geldi: sürüm adı ya da tarihi.]" },
+  { "id": "c01", "beat": "yenilik1", "style": "energetic, clear", "t": "[Birinci yenilik ve kullanıcıya faydası.]" },
+  { "id": "c02", "beat": "yenilik2", "style": "energetic, lighter", "t": "[İkinci yenilik ve faydası.]" },
+  { "id": "c03", "beat": "yenilik3", "style": "energetic, building", "t": "[Üçüncü yenilik ve faydası.]" },
+  { "id": "c04", "beat": "kapanis", "style": "warm, inviting", "t": "[Güncelleme nasıl alınır. Marka adı.]" } ] }

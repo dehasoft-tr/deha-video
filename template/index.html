@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>__TITLE__</title>
+<link rel="stylesheet" href="css/gorunum.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/kit.css">
+</head>
+<body>
+<div id="viewport"><div id="stage">
+  <div id="bg"></div>
+  <div id="world"></div>
+  <div id="hl"></div>
+  <div id="lock"></div>
+</div></div>
+<div id="ui">
+  <button id="bPlay">Oynat</button>
+  <button id="bRestart">Başa sar</button>
+  <input id="scrub" type="range" min="0" max="1000" value="0">
+  <span id="clock">0:00 / 0:00</span>
+  <label><input id="cVoice" type="checkbox" checked> Seslendirme</label>
+  <label><input id="cSfx" type="checkbox" checked> Efektler</label>
+</div>
+<script src="assets/config.js"></script>
+<script src="assets/timeline.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/kit.js"></script>
+<script src="js/film.js"></script>
+<script src="js/player.js"></script>
+</body>
+</html>

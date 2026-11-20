@@ -1,0 +1,7 @@
+{ "_aciklama": "30 saniyelik hızlı lansman/duyuru filmi: kanca, üç vuruş, kapanış. ~48 kelime. Sosyal medya için.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "kanca", "style": "punchy, intrigued, fast", "t": "[Dört saniyelik kanca: şaşırtan bir soru ya da tespit.]" },
+  { "id": "c01", "beat": "vurus1", "style": "energetic, confident", "t": "[En güçlü fayda, tek cümle.]" },
+  { "id": "c02", "beat": "vurus2", "style": "energetic, lighter", "t": "[İkinci fayda, tek cümle.]" },
+  { "id": "c03", "beat": "vurus3", "style": "energetic, building", "t": "[Üçüncü fayda, tek cümle.]" },
+  { "id": "c04", "beat": "kapanis", "style": "proud, slower, memorable", "t": "[Slogan. Marka adı.]" } ] }

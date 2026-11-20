@@ -1,0 +1,4 @@
+node_modules/
+out/tmp*/
+out/video.mp4
+assets/vo/raw/

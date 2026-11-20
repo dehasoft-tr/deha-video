@@ -1,0 +1,9 @@
+{ "_aciklama": "Bir işin adım adım nasıl yapıldığını gösteren 90 saniyelik eğitim filmi. ~140 kelime. Adım bölümlerini çoğaltın.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "giris", "style": "friendly, clear, a helpful guide", "t": "[Bu filmde ne öğrenilecek, ne kadar sürecek.]" },
+  { "id": "c01", "beat": "adim1", "style": "calm, instructive", "t": "[Birinci adım: nereye girilir, neye tıklanır.]" },
+  { "id": "c02", "beat": "adim2", "style": "calm, instructive", "t": "[İkinci adım: hangi alanlar doldurulur.]" },
+  { "id": "c03", "beat": "adim3", "style": "calm, instructive, a helpful tip", "t": "[Üçüncü adım ve dikkat edilecek nokta.]" },
+  { "id": "c04", "beat": "adim4", "style": "calm, reassuring", "t": "[Dördüncü adım: kaydet, sonucu gör.]" },
+  { "id": "c05", "beat": "sonuc", "style": "satisfied, encouraging", "t": "[Sonuçta ne oldu, bundan sonra ne kendiliğinden olacak.]" },
+  { "id": "c06", "beat": "kapanis", "style": "warm, brief", "t": "[Tek cümlelik özet. Marka adı.]" } ] }

@@ -1,0 +1,10 @@
+{ "_aciklama": "Tek bir modülü tanıtan 60 saniyelik film: sorun, çözüm, üç yetenek, yönetici kazancı, kapanış. ~95 kelime.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "sorun", "style": "curious, warm, a hook, conversational", "t": "[İzleyicinin her gün yaşadığı sorunu bir soruyla açın.]" },
+  { "id": "c01", "beat": "sorun", "style": "brisk, knowing, a touch of frustration", "t": "[Sorunun bedelini somutlaştırın: kaybolan zaman, hata, telefon trafiği.]" },
+  { "id": "c02", "beat": "cozum", "style": "bright, relieved, confident, a smile; the product name is one word", "t": "[Çözümü adıyla ve tek cümlelik vaadiyle tanıtın; marka adı cümlenin sonunda.]" },
+  { "id": "c03", "beat": "adim1", "style": "clear, friendly, energetic", "t": "[Birinci yetenek: kullanıcı ne yapar, ne kadar kolay.]" },
+  { "id": "c04", "beat": "adim2", "style": "quick, upbeat, emphasis on what happens automatically", "t": "[İkinci yetenek: neyin kendiliğinden olduğu.]" },
+  { "id": "c05", "beat": "adim3", "style": "calm, assured", "t": "[Üçüncü yetenek: denetim kimde, hangi sınırlar konabilir.]" },
+  { "id": "c06", "beat": "yonetici", "style": "confident, proud, listing with a rising rhythm", "t": "[Yönetici ne görür: rapor, liste, durum. Elle takip biter.]" },
+  { "id": "c07", "beat": "kapanis", "style": "warm, proud, slower, memorable; a short pause before the brand name", "t": "[Akılda kalan kapanış cümlesi. Marka adı.]" } ] }

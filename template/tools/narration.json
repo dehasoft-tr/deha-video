@@ -1,0 +1,9 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "voice": "Leda",
+  "clips": [
+    { "id": "c00", "beat": "sorun", "style": "curious, warm, a hook, conversational", "t": "Bu bir başlangıç metnidir. Kendi sorununuzu buraya yazın." },
+    { "id": "c01", "beat": "cozum", "style": "bright, confident, a smile", "t": "Çözümü ve kazancı kısa cümlelerle anlatın." },
+    { "id": "c02", "beat": "kapanis", "style": "warm, proud, slower, memorable", "t": "Akılda kalan bir kapanış cümlesiyle bitirin." }
+  ]
+}

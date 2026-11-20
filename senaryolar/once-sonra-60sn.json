@@ -1,0 +1,9 @@
+{ "_aciklama": "Eski düzen ile yeni düzeni yan yana gösteren 60 saniyelik dönüşüm filmi. ~95 kelime. Görselde aynı sahnenin 'önce' ve 'sonra' hâli kullanılır.",
+  "model": "gemini-3.8-flash-tts", "voice": "Leda", "clips": [
+  { "id": "c00", "beat": "once", "style": "weary, knowing, conversational", "t": "[Eski düzen: iş bugün nasıl yürüyor.]" },
+  { "id": "c01", "beat": "once", "style": "a touch of frustration, quick rhythm", "t": "[Eski düzenin üç sıkıntısı.]" },
+  { "id": "c02", "beat": "donusum", "style": "bright, a turn, confident; the product name is one word", "t": "[Dönüşüm anı: ürün adıyla.]" },
+  { "id": "c03", "beat": "sonra", "style": "relieved, energetic", "t": "[Yeni düzen: aynı iş şimdi nasıl yürüyor.]" },
+  { "id": "c04", "beat": "sonra", "style": "assured, clear", "t": "[Ne kendiliğinden oluyor, ne tek yerde görünüyor.]" },
+  { "id": "c05", "beat": "kazanc", "style": "proud, satisfied", "t": "[İşletmenin kazancı: nitel, rakamsız.]" },
+  { "id": "c06", "beat": "kapanis", "style": "warm, memorable, slower", "t": "[Kapanış cümlesi. Marka adı.]" } ] }

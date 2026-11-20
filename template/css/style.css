@@ -1,0 +1,23 @@
+@font-face{font-family:'Inter';src:url('../assets/fonts/inter-latin-ext-wght-normal.woff2') format('woff2');font-weight:100 900;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Inter';src:url('../assets/fonts/inter-latin-wght-normal.woff2') format('woff2');font-weight:100 900;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Instrument Serif';src:url('../assets/fonts/instrument-serif-latin-ext-400-italic.woff2') format('woff2');font-style:italic;font-weight:400;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Instrument Serif';src:url('../assets/fonts/instrument-serif-latin-400-italic.woff2') format('woff2');font-style:italic;font-weight:400;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Sahne __W__x__H__ pikseldir; bütün ölçüler bu koordinatlarda yazılır. Paleti filme göre değiştir. */
+/* Renkler css/gorunum.css'ten gelir (skill içindeki gorunumler/ ön ayarlarından biri); orada değiştir. */
+:root{--W:__W__px;--H:__H__px}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:100%;height:100%;background:#000;overflow:hidden;font-family:'Inter',system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+#viewport{position:fixed;inset:0}
+#stage{position:absolute;left:50%;top:50%;width:var(--W);height:var(--H);transform-origin:0 0;overflow:hidden;background:radial-gradient(90% 60% at 50% 0%,var(--bg2),transparent 70%),var(--bg);isolation:isolate}
+#stage>div,#stage>svg{position:absolute;left:0;top:0;width:var(--W);height:var(--H)}
+body.render #stage{left:0;top:0;transform:none!important}
+body.render #ui{display:none!important}
+#ui{position:fixed;left:0;right:0;bottom:0;height:56px;display:flex;align-items:center;gap:14px;padding:0 16px;background:#0b0d13;color:#fff;font-size:14px}
+#ui input[type=range]{flex:1}
+#ui button{padding:6px 12px}
+/* başlıklar: satır maskesi içinde kelime kelime yükselir. .ln'in dolgusu, yükselen/inen harflerin kesilmemesi içindir. */
+.h{position:absolute;display:none}
+.h .ln{display:block;overflow:hidden;line-height:1.04;padding:.1em 0 .16em;margin:-.1em 0 -.16em;white-space:nowrap}
+.h .w{display:inline-block;will-change:transform;font-weight:800;letter-spacing:-.035em}
+.h .w.a{font-family:'Instrument Serif',serif;font-style:italic;font-weight:400;letter-spacing:-.01em;color:var(--ac);font-size:1.14em;line-height:.9}
+.lk{position:absolute;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;border-radius:44px;background:var(--card);color:var(--cardink);box-shadow:0 40px 90px rgba(0,0,0,.35)}
